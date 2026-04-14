@@ -1,3 +1,29 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background:url(assets/doctile2.png);
+}
+
+form{
+    padding-bottom: 10px;
+}
+
+input{
+    background-color: gainsboro;
+}
+
+p{
+    font-size: larger;
+}
+
+.mid{
+    display: flex;
+}
+
+.main{
+    background-color: orange;
+    padding-bottom: 5px;
+    
+}
