@@ -6,7 +6,7 @@ body{
     background:url(assets/doctile2.png);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: stretch;
     align-items: center;
 }
 
@@ -25,15 +25,11 @@ p{
     font-size: 20px;
 }
 
-.mid{
-    display: flex;
-    
-}
-
 .main{
     background-color: lightgreen;
+    border: black 2px solid;
     border-radius: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     width: 800px;
     height: 500px;
     display: flex;
@@ -51,4 +47,15 @@ button{
 }
 .emp{
     color: orangered;
+}
+
+
+
+.footer{
+    color: white;
+    background-color: darkblue;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
 }
